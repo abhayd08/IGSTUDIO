@@ -1,0 +1,39 @@
+.container {
+  margin: auto;
+  margin-top: 11.5rem;
+  width: 71.25rem;
+  border-radius: 0.875rem;
+}
+
+.brand {
+  font-family: Inter;
+  font-size: 3.375rem;
+  font-weight: 600;
+  line-height: 4.8125rem;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.section {
+  margin-top: 4.06rem !important;
+}
+
+.items {
+  position: relative;
+}
+
+.practice-name {
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+  transform: translate(-50%, -50%);
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fffbf2;
+  width: 100%;
+}

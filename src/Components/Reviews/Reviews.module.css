@@ -1,0 +1,103 @@
+.container {
+  margin: auto;
+  margin-top: 11.625rem;
+  width: 71.0625rem;
+  height: 39.125rem;
+  border-radius: 0.875rem;
+  border: Mixed solid #ffffff1a;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 2rem;
+  margin-bottom: 6.5rem;
+}
+
+.brand {
+  width: 23.375rem;
+  height: 9.625rem;
+  font-family: Inter;
+  font-size: 3.375rem;
+  font-weight: 600;
+  line-height: 4.8125rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.nav-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.prev-btn,
+.next-btn {
+  width: 5.663125rem;
+  height: 5.663125rem;
+  cursor: pointer;
+}
+
+.reviews-section {
+  margin-top: 6.5rem;
+}
+
+.review {
+  width: 22.4375rem;
+  border-radius: 0.875rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  padding: 1.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border: 1.4px solid #ffffff1a;
+}
+
+#devon-review,
+#rubel-review {
+  border: 1.4px solid #ffffff1a;
+  background: linear-gradient(0deg, #2e2e2e, #2e2e2e),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)) !important;
+}
+
+.profile-pic {
+  width: 6.5625rem;
+  height: 6.375rem;
+}
+
+.profile-name {
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.designation {
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: -0.75rem;
+  color: #ffffff;
+}
+
+.review-description {
+  width: 18.3125rem;
+  opacity: 30%;
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.4375rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}

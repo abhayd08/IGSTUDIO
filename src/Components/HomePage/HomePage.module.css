@@ -1,0 +1,150 @@
+.hero-container {
+  padding-top: 3.4rem;
+  padding-bottom: 10rem;
+  background: #111111;
+  height: 100%;
+}
+
+.intro-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  width: 70.75rem;
+  height: 10.875rem;
+  margin: auto;
+  margin-top: 10.75rem;
+}
+
+.content-1 {
+  width: 24.1875rem;
+  height: 10.875rem;
+  font-family: Inter;
+  font-size: 3.375rem;
+  font-weight: 600;
+  line-height: 5.4375rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.info-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5.25rem;
+}
+
+.designation {
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 3.25rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.content-2 {
+  width: 29.6875rem;
+  height: 5.4375rem;
+  opacity: 30%;
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.8125rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.features-container {
+  width: 71.1875rem;
+  height: 34.4375rem;
+  margin: auto;
+  margin-top: 14rem;
+}
+
+.features-heading {
+  font-family: Inter;
+  font-size: 3.375rem;
+  font-weight: 600;
+  line-height: 4.8125rem;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.features-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 6rem;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  border-radius: 0.875rem;
+  background: linear-gradient(0deg, #1d1d1d, #1d1d1d),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+  border: 1.4px solid #ffffff1a;
+  padding: 1.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.feature:nth-child(2) {
+  background: linear-gradient(0deg, #2e2e2e, #2e2e2e),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+  border: 1.4px solid #ffffff1a;
+}
+
+.feature-icon {
+  width: 6.3125rem;
+  height: 6.3125rem;
+}
+
+.feature-name {
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.feature-description {
+  width: 18.3125rem;
+  height: 4.3125rem;
+  opacity: 30%;
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.4375rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.read-more-btn {
+  width: 7.5625rem;
+  height: 2.6875rem;
+  border-radius: 1.46875rem;
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.4375rem;
+  letter-spacing: 0em;
+  text-align: center;
+  background: #e3b748;
+  color: #000000;
+  margin-top: -0.3em;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}

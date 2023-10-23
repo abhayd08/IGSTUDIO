@@ -1,0 +1,86 @@
+.container {
+  margin: auto;
+  margin-top: 11.625rem;
+  width: 72.25rem;
+  border-radius: 0.875rem;
+}
+
+.brand {
+  font-family: Inter;
+  font-size: 3.375rem;
+  font-weight: 600;
+  line-height: 4.8125rem;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 6.8125rem;
+}
+
+.team-section {
+  width: 100%;
+  align-items: center;
+}
+
+.team-member {
+  width: 13.0625rem;
+  height: 4.25rem;
+  display: flex;
+  padding-left: 1.6rem;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 5.5rem !important;
+}
+
+.team-member:nth-child(2) {
+  width: 21.5rem;
+  height: 6.8125rem;
+  border-radius: 0.875rem;
+  background: #e3b748;
+
+  .name {
+    color: #373737;
+  }
+
+  .cases {
+    color: #000000;
+  }
+}
+
+.team-member:nth-child(3),
+.team-member:nth-child(6) {
+  padding-left: 9rem;
+}
+
+.profile-pic {
+  width: 4.25rem;
+  height: 4.25rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.name {
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.cases {
+  opacity: 30%;
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}

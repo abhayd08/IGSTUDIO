@@ -1,0 +1,153 @@
+.container {
+  width: 70.9375rem;
+  margin: auto;
+  background: #111111;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.nav-items {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.625rem;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.contact-btn {
+  width: 10.75rem;
+  height: 2.9375rem;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  background-color: #111111;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.1875rem;
+  letter-spacing: 0em;
+  cursor: pointer;
+}
+
+.hero-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5.8125rem;
+}
+
+.text-info {
+  margin-top: 9.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2.25rem;
+}
+
+.title:first-child {
+  font-family: Inter;
+  font-size: 4.125rem;
+  font-weight: 500;
+  line-height: 6.0625rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.title:last-child {
+  font-family: Inter;
+  font-size: 4.125rem;
+  font-weight: 700;
+  line-height: 6.0625rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.subtitle {
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.8125rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  width: 35rem;
+  height: 6.1875rem;
+  opacity: 30%;
+}
+
+.subscription-form {
+  width: 27.375rem;
+  height: 4.625rem;
+  border-radius: 2.6875rem;
+  position: relative;
+}
+
+.email-input-box {
+  width: 27.375rem;
+  height: 4.625rem;
+  border-radius: 2.6875rem;
+  opacity: 20%;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.625rem;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 15%;
+  border: 0;
+  outline: 0;
+}
+
+.mail-icon {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 10%;
+  opacity: 25%;
+}
+
+.submit-btn {
+  width: 8.5625rem;
+  height: 3.875rem;
+  border-radius: 2.6875rem;
+  background: #e3b748;
+  cursor: pointer;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.625rem;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+  border: 0;
+  outline: 0;
+  position: absolute;
+  top: 50%;
+  left: 83.2%;
+  transform: translate(-50%, -50%);
+}
+
+.img {
+  margin-top: 4.5rem;
+  width: 29.231875rem;
+  height: 34.044375rem;
+}

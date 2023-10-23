@@ -1,0 +1,80 @@
+.container {
+  margin: auto;
+  margin-top: 14rem;
+  height: 23rem;
+  padding: 8.25rem;
+  padding-top: 7.375rem;
+  padding-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  position: relative;
+  background: #111111;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.5rem;
+}
+
+.items {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.625rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.items:first-child {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.15rem;
+}
+
+.social-link {
+  width: 1.875rem;
+  height: 1.875rem;
+  cursor: pointer;
+}
+
+.footer-text-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: 20%;
+}
+
+.footer-text {
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.footer-text:nth-child(2), .footer-text:nth-child(3) {
+    cursor: pointer;
+}
