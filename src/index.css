@@ -12,6 +12,10 @@ body {
   display: none !important;
 }
 
+.css-67l5gl::before {
+  display: none !important;
+}
+
 .swiper {
   width: 100%;
   height: 100%;

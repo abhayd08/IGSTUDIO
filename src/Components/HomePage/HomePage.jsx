@@ -16,7 +16,7 @@ const HomePage = () => {
       <div className={styles["intro-content"]}>
         <div className={styles["content-1"]}>Let’s Introduce Ourself</div>
         <div className={styles["info-box"]}>
-          <img src="/src/assets/divider-line.svg" alt="Divider" />
+          <img src="/assets/divider-line.svg" alt="Divider" />
           <div>
             <p className={styles.designation}>Criminal Lawyer</p>
             <p className={styles["content-2"]}>
@@ -32,7 +32,7 @@ const HomePage = () => {
         <div className={styles["features-section"]}>
           <div className={styles.feature}>
             <img
-              src="/src/assets/feature-icon.svg"
+              src="/assets/feature-icon.svg"
               className={styles["feature-icon"]}
               alt="Feature"
             />
@@ -45,7 +45,7 @@ const HomePage = () => {
           </div>
           <div className={styles.feature}>
             <img
-              src="/src/assets/feature-icon.svg"
+              src="/assets/feature-icon.svg"
               className={styles["feature-icon"]}
               alt="Feature"
             />
@@ -58,7 +58,7 @@ const HomePage = () => {
           </div>
           <div className={styles.feature}>
             <img
-              src="/src/assets/feature-icon.svg"
+              src="/assets/feature-icon.svg"
               className={styles["feature-icon"]}
               alt="Feature"
             />

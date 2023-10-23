@@ -26,7 +26,7 @@ const FAQ = () => {
             officia consequatduis enim velit mollit Exer.
           </div>
         </div>
-        <img src="/src/assets/divider-horizontal.svg" alt="Divider" />
+        <img src="/assets/divider-horizontal.svg" alt="Divider" />
         <Accordion className={styles.FAQ}>
           <AccordionSummary
             expandIcon={<ExpandIcon />}
@@ -44,7 +44,7 @@ const FAQ = () => {
             </span>
           </AccordionDetails>
         </Accordion>
-        <img src="/src/assets/divider-horizontal.svg" alt="Divider" />
+        <img src="/assets/divider-horizontal.svg" alt="Divider" />
         <Accordion className={styles.FAQ}>
           <AccordionSummary
             expandIcon={<ExpandIcon />}
@@ -64,7 +64,7 @@ const FAQ = () => {
             </span>
           </AccordionDetails>
         </Accordion>
-        <img src="/src/assets/divider-horizontal.svg" alt="Divider" />
+        <img src="/assets/divider-horizontal.svg" alt="Divider" />
         <Accordion className={styles.FAQ}>
           <AccordionSummary
             expandIcon={<ExpandIcon />}

@@ -9,7 +9,7 @@ const Footer = () => {
           window.location.reload();
         }}
       >
-        <img src="/src/assets/brand.svg" alt="brand" />
+        <img src="/assets/brand.svg" alt="brand" />
       </div>
       <div className={styles["header-menu"]}>
         <div className={styles.items}>Home</div>
@@ -19,16 +19,16 @@ const Footer = () => {
       </div>
       <div className={styles["socials"]}>
         <div className={styles["social-link"]}>
-          <img src="/src/assets/Socials/instagram.svg" alt="Instagram" />
+          <img src="/assets/Socials/instagram.svg" alt="Instagram" />
         </div>
         <div className={styles["social-link"]}>
-          <img src="/src/assets/Socials/facebook.svg" alt="Facebook" />
+          <img src="/assets/Socials/facebook.svg" alt="Facebook" />
         </div>
         <div className={styles["social-link"]}>
-          <img src="/src/assets/Socials/twitter.svg" alt="Twitter" />
+          <img src="/assets/Socials/twitter.svg" alt="Twitter" />
         </div>
         <div className={styles["social-link"]}>
-          <img src="/src/assets/Socials/pinterest.svg" alt="Pinterest" />
+          <img src="/assets/Socials/pinterest.svg" alt="Pinterest" />
         </div>
       </div>
       <div className={styles["footer-text-box"]}>

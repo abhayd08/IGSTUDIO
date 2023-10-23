@@ -4,32 +4,32 @@ import { Grid } from "@mui/material";
 const Team = () => {
   const team = [
     {
-      profilePic: "/src/assets/Profile-Pics/danial.svg",
+      profilePic: "/assets/Profile-Pics/danial.svg",
       name: "Danial Def",
       cases: 301,
     },
     {
-      profilePic: "/src/assets/Profile-Pics/sanfole.svg",
+      profilePic: "/assets/Profile-Pics/sanfole.svg",
       name: "Sanfole",
       cases: 850,
     },
     {
-      profilePic: "/src/assets/Profile-Pics/cesforila.svg",
+      profilePic: "/assets/Profile-Pics/cesforila.svg",
       name: "Cesforila",
       cases: 470,
     },
     {
-      profilePic: "/src/assets/Profile-Pics/colleen.svg",
+      profilePic: "/assets/Profile-Pics/colleen.svg",
       name: "Colleen",
       cases: 180,
     },
     {
-      profilePic: "/src/assets/Profile-Pics/haldone.svg",
+      profilePic: "/assets/Profile-Pics/haldone.svg",
       name: "Haldone",
       cases: 212,
     },
     {
-      profilePic: "/src/assets/Profile-Pics/nik.svg",
+      profilePic: "/assets/Profile-Pics/nik.svg",
       name: "Nik Jeo",
       cases: 350,
     },

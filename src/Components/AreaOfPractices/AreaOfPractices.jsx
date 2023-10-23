@@ -7,30 +7,30 @@ const AreaOfPractices = () => {
       <p className={styles.brand}>Area of Practices</p>
       <Grid container spacing={3} className={styles.section}>
         <Grid item sm={8} className={styles.items}>
-          <img src="/src/assets/business.svg" alt="Business Law" />
+          <img src="/assets/business.svg" alt="Business Law" />
           <span className={styles["practice-name"]}>BUSINESS LAW</span>
         </Grid>
         <Grid item sm={4} className={styles.items}>
-          <img src="/src/assets/partnership.svg" alt="Partnership Law" />
+          <img src="/assets/partnership.svg" alt="Partnership Law" />
           <span className={styles["practice-name"]}>Partnership LAW</span>
         </Grid>
         <Grid item sm={4} className={styles.items}>
-          <img src="/src/assets/real-estate.svg" alt="Real Estate Law" />
+          <img src="/assets/real-estate.svg" alt="Real Estate Law" />
           <span className={styles["practice-name"]}>REAL ESTATE LAW</span>
         </Grid>
         <Grid item sm={8} className={styles.items}>
-          <img src="/src/assets/business-2.svg" alt="Business Law" />
+          <img src="/assets/business-2.svg" alt="Business Law" />
           <span className={styles["practice-name"]}>BUSINESS LAW</span>
         </Grid>
         <Grid item sm={8} className={styles.items}>
           <img
-            src="/src/assets/landlord-disputes.svg"
+            src="/assets/landlord-disputes.svg"
             alt="Landlord Disputes Law"
           />
           <span className={styles["practice-name"]}>LANDLORD DISPUTE LAW</span>
         </Grid>
         <Grid item sm={4} className={styles.items}>
-          <img src="/src/assets/elder-abuse.svg" alt="Elder Abuse Law" />
+          <img src="/assets/elder-abuse.svg" alt="Elder Abuse Law" />
           <span className={styles["practice-name"]}>ELDER ABUSE LAW</span>
         </Grid>
       </Grid>

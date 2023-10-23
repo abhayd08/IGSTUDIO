@@ -27,7 +27,7 @@ const Reviews = () => {
     {
       name: "Jane Cooper",
       id: "jane-review",
-      image: "/src/assets/pp-1.svg",
+      image: "/assets/pp-1.svg",
       designation: "Ceo of Hunt",
       description:
         "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer.",
@@ -35,14 +35,14 @@ const Reviews = () => {
     {
       name: "Devon Lane",
       id: "devon-review",
-      image: "/src/assets/pp-2.svg",
+      image: "/assets/pp-2.svg",
       designation: "Ceo of Hunt",
       description:
         "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer.",
     },
     {
       name: "Robert Fox",
-      image: "/src/assets/pp-3.svg",
+      image: "/assets/pp-3.svg",
       designation: "Ceo of Hunt",
       description:
         "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer.",
@@ -50,7 +50,7 @@ const Reviews = () => {
     {
       name: "Scott Edwards",
       id: "scott-review",
-      image: "/src/assets/pp-1.svg",
+      image: "/assets/pp-1.svg",
       designation: "Ceo of Hunt",
       description:
         "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer.",
@@ -58,7 +58,7 @@ const Reviews = () => {
     {
       name: "Rubel",
       id: "rubel-review",
-      image: "/src/assets/pp-2.svg",
+      image: "/assets/pp-2.svg",
       designation: "Ceo of Hunt",
       description:
         "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer.",
@@ -66,7 +66,7 @@ const Reviews = () => {
     {
       name: "Paul",
       id: "paul-review",
-      image: "/src/assets/pp-3.svg",
+      image: "/assets/pp-3.svg",
       designation: "Ceo of Hunt",
       description:
         "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer.",
@@ -78,10 +78,10 @@ const Reviews = () => {
         <p className={styles.brand}>What says our Happy Clients</p>
         <div className={styles["nav-btns"]}>
           <div className={styles["prev-btn"]} onClick={goToPrevSlide}>
-            <img src="/src/assets/prev.svg" alt="Previous" />
+            <img src="/assets/prev.svg" alt="Previous" />
           </div>
           <div className={styles["next-btn"]} onClick={goToNextSlide}>
-            <img src="/src/assets/next.svg" alt="Next" />
+            <img src="/assets/next.svg" alt="Next" />
           </div>
         </div>
       </div>

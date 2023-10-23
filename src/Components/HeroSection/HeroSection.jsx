@@ -10,7 +10,7 @@ const HeroSection = () => {
             window.location.reload();
           }}
         >
-          <img src="/src/assets/brand.svg" alt="brand" />
+          <img src="/assets/brand.svg" alt="brand" />
         </div>
         <nav className={styles["nav-menu"]}>
           <div className={styles["nav-items"]}>Home</div>
@@ -39,7 +39,7 @@ const HeroSection = () => {
             }}
           >
             <img
-              src="/src/assets/mail-icon.svg"
+              src="/assets/mail-icon.svg"
               className={styles["mail-icon"]}
               alt="mail"
             />
@@ -55,7 +55,7 @@ const HeroSection = () => {
           </form>
         </div>
         <div className={styles.img}>
-          <img alt="image" src="/src/assets/image.svg"></img>
+          <img alt="image" src="/assets/image.svg"></img>
         </div>
       </div>
     </div>
