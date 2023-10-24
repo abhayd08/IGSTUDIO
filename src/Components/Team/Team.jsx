@@ -43,7 +43,7 @@ const Team = () => {
           return (
             <Grid
               item
-              sm={4}
+              xs={4}
               className={styles["team-member"]}
               key={teamMember.name}
             >
