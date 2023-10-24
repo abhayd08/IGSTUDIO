@@ -17,7 +17,7 @@ const HomePage = () => {
         <div className={styles["content-1"]}>Let’s Introduce Ourself</div>
         <div className={styles["info-box"]}>
           <img src="/assets/divider-line.svg" alt="Divider" />
-          <div style={{marginRight: "-.5rem"}}>
+          <div style={{marginRight: "-.25rem"}}>
             <p className={styles.designation}>Criminal Lawyer</p>
             <p className={styles["content-2"]}>
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
